@@ -17,11 +17,14 @@
       "micon": "area.webp",
       "image": "map1.webp",
       "audio": "area_1",
-      "mdata": [ ["pack: deck"], ["dupe: main"],        
+      "mdata": [
+        ["pack: deck"],
+        ["dupe: main"],
         [
           "pick: handtraps",
           "pick: utility",
-          "pick: goingsecond"
+          "pick: goingsecond",
+          "pick: extradeck"
         ],
         ["duel: duel_2"]
       ]
@@ -31,15 +34,9 @@
       "image": "map2.webp",
       "audio": "area_2",
       "mdata": [
-        ["pick: FIRE", "pick: DARK", "pick: WIND"],
-        [
-          "dupe: main",
-          "pick: sptr_monster",
-          "pick: sptr_spellTrap",
-          "pick: sptr_utility"
-        ],
-        ["pick: WATER", "pick: LIGHT", "pick: EARTH"],
-
+        ["dupe: main", "pick: essentials"],
+        ["pick: handtraps", "pick: goingsecond"],
+        ["pick: utility", "pick: extradeck"],
         ["duel: duel_3"]
       ]
     },
@@ -48,10 +45,24 @@
       "image": "map3.webp",
       "audio": "area_3",
       "mdata": [
-        ["pack: sdck"],
-        ["pick: sptr_monster", "pick: sptr_spellTrap"],
-        ["pick: LIGHT", "pick: DARK", "pick: WIND"],
-        ["dupe: main", "pick: WATER", "pick: FIRE", "pick: EARTH"],
+        [
+          "pick: sd_striker",
+          "pick: sd_salamangreat",
+          "pick: sd_orcust",
+          "pick: sd_thunderdragon"
+        ],
+        [
+          "pick: stun",
+          "pick: endymion",
+          "pick: machine",
+          "pick: warriorsanddragons"
+        ],
+        [
+          "pick: handtraps",
+          "pick: utility",
+          "pick: goingsecond",
+          "pick: extradeck"
+        ],
         ["duel: duel_4"]
       ]
     },
@@ -60,13 +71,14 @@
       "image": "map4.webp",
       "audio": "area_4",
       "mdata": [
+        ["pack: deck"],
         [
-          "pick: sptr_monster",
-          "pick: sptr_spellTrap",
-          "pick: sptr_utility",
-          "dupe: main"
+          "pick: handtraps",
+          "pick: utility",
+          "pick: goingsecond",
+          "pick: extradeck"
         ],
-        ["dupe: main"],
+        ["dupe: main", "pick: essentials"],
         ["duel: duel_5"],
         ["none"]
       ]
@@ -116,31 +128,94 @@
 
   "pick": {
     "essentials": {
-      "micon": "FIRE.webp",
-      "image": "event_pick.webp",
+      "micon": "essentials.webp",
+      "image": "essentials.webp",
       "audio": "none",
-      "title": "FIRE"
+      "title": "Essentials"
     },
     "utility": {
-      "micon": "st_mons.webp",
-      "image": "event_pack.webp",
-      "audio": "none",
-      "title": "none",
-      "mdesc": "Monster Removal"
-    },
-    "goingsecond": {
-      "micon": "st_spell.webp",
-      "image": "event_pack.webp",
-      "audio": "none",
-      "title": "none",
-      "mdesc": "S/T Removal"
-    },
-    "handtraps": {
-      "micon": "st_utility.webp",
-      "image": "event_pack.webp",
+      "micon": "utility.webp",
+      "image": "utility.webp",
       "audio": "none",
       "title": "none",
       "mdesc": "Utility"
+    },
+    "goingsecond": {
+      "micon": "goingsecond.webp",
+      "image": "goingsecond.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Board Breakers"
+    },
+    "handtraps": {
+      "micon": "handtraps.webp",
+      "image": "handtraps.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Hand Traps"
+    },
+    "extradeck": {
+      "micon": "extradeck.webp",
+      "image": "extradeck.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Extra Deck"
+    },
+    "sd_thunderdragon": {
+      "micon": "thunderdragon.webp",
+      "image": "thunderdragon.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Thunder Dragons"
+    },
+    "sd_orcust": {
+      "micon": "orcust.webp",
+      "image": "orcust.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Orcust"
+    },
+    "sd_salamangreat": {
+      "micon": "salamangreat.webp",
+      "image": "salamangreat.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Salamangreat"
+    },
+    "sd_striker": {
+      "micon": "skystriker.webp",
+      "image": "skystriker.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Sky Striker"
+    },
+    "warriorsanddragons": {
+      "micon": "darkwarriordragon.webp",
+      "image": "darkwarriordragon.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Dangers, Dragons, and Warriors"
+    },
+    "machine": {
+      "micon": "machine.webp",
+      "image": "machine.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Machines"
+    },
+    "stun": {
+      "micon": "stun.webp",
+      "image": "stun.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Stun Decks"
+    },
+    "endymion": {
+      "micon": "pendulum.webp",
+      "image": "pendulum.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Pendulum"
     }
   },
 

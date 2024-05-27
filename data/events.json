@@ -9,6 +9,7 @@
         ["pack: starter"],
         ["pack: sdck"],
         ["pack: theme"],
+        ["pick: essentials"],
         ["duel: duel_1"]
       ]
     },
@@ -16,7 +17,14 @@
       "micon": "area.webp",
       "image": "map1.webp",
       "audio": "area_1",
-      "mdata": [["pack: sdck", "pack: theme"], ["dupe: main"], ["duel: duel_2"]]
+      "mdata": [ ["pack: deck"], ["dupe: main"],        
+        [
+          "pick: handtraps",
+          "pick: utility",
+          "pick: goingsecond"
+        ],
+        ["duel: duel_2"]
+      ]
     },
     "2": {
       "micon": "area.webp",
@@ -107,58 +115,27 @@
   },
 
   "pick": {
-    "FIRE": {
+    "essentials": {
       "micon": "FIRE.webp",
       "image": "event_pick.webp",
       "audio": "none",
       "title": "FIRE"
     },
-    "WATER": {
-      "micon": "WATER.webp",
-      "image": "event_pick.webp",
-      "audio": "none",
-      "title": "FIRE"
-    },
-    "WIND": {
-      "micon": "WIND.webp",
-      "image": "event_pick.webp",
-      "audio": "none",
-      "title": "FIRE"
-    },
-    "EARTH": {
-      "micon": "EARTH.webp",
-      "image": "event_pick.webp",
-      "audio": "none",
-      "title": "FIRE"
-    },
-    "LIGHT": {
-      "micon": "LIGHT.webp",
-      "image": "event_pick.webp",
-      "audio": "none",
-      "title": "FIRE"
-    },
-    "DARK": {
-      "micon": "DARK.webp",
-      "image": "event_pick.webp",
-      "audio": "none",
-      "title": "FIRE"
-    },
-
-    "sptr_monster": {
+    "utility": {
       "micon": "st_mons.webp",
       "image": "event_pack.webp",
       "audio": "none",
       "title": "none",
       "mdesc": "Monster Removal"
     },
-    "sptr_spellTrap": {
+    "goingsecond": {
       "micon": "st_spell.webp",
       "image": "event_pack.webp",
       "audio": "none",
       "title": "none",
       "mdesc": "S/T Removal"
     },
-    "sptr_utility": {
+    "handtraps": {
       "micon": "st_utility.webp",
       "image": "event_pack.webp",
       "audio": "none",
@@ -181,8 +158,13 @@
       "audio": "none",
       "title": "Big 4 Deck"
     },
-
     "starter": {
+      "micon": "pack.webp",
+      "image": "event_pack.webp",
+      "audio": "none",
+      "title": "asd"
+    },
+    "deck": {
       "micon": "pack.webp",
       "image": "event_pack.webp",
       "audio": "none",

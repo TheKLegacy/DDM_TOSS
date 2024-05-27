@@ -1,0 +1,251 @@
+{
+  "area": {
+    "START": {
+      "micon": "none",
+      "image": "map0.webp",
+      "audio": "area_1",
+      "mdata": [
+        ["text: start"],
+        ["pack: starter"],
+        ["pack: sdck"],
+        ["pack: theme"],
+        ["duel: duel_1"]
+      ]
+    },
+    "1": {
+      "micon": "area.webp",
+      "image": "map1.webp",
+      "audio": "area_1",
+      "mdata": [["pack: sdck", "pack: theme"], ["dupe: main"], ["duel: duel_2"]]
+    },
+    "2": {
+      "micon": "area.webp",
+      "image": "map2.webp",
+      "audio": "area_2",
+      "mdata": [
+        ["pick: FIRE", "pick: DARK", "pick: WIND"],
+        [
+          "dupe: main",
+          "pick: sptr_monster",
+          "pick: sptr_spellTrap",
+          "pick: sptr_utility"
+        ],
+        ["pick: WATER", "pick: LIGHT", "pick: EARTH"],
+
+        ["duel: duel_3"]
+      ]
+    },
+    "3": {
+      "micon": "area.webp",
+      "image": "map3.webp",
+      "audio": "area_3",
+      "mdata": [
+        ["pack: sdck"],
+        ["pick: sptr_monster", "pick: sptr_spellTrap"],
+        ["pick: LIGHT", "pick: DARK", "pick: WIND"],
+        ["dupe: main", "pick: WATER", "pick: FIRE", "pick: EARTH"],
+        ["duel: duel_4"]
+      ]
+    },
+    "4": {
+      "micon": "area.webp",
+      "image": "map4.webp",
+      "audio": "area_4",
+      "mdata": [
+        [
+          "pick: sptr_monster",
+          "pick: sptr_spellTrap",
+          "pick: sptr_utility",
+          "dupe: main"
+        ],
+        ["dupe: main"],
+        ["duel: duel_5"],
+        ["none"]
+      ]
+    }
+  },
+
+  "text": {
+    "start": {
+      "micon": "text.webp",
+      "image": "event_dupe.webp",
+      "parts": [
+        { "type": "bust", "content": "tourGuide.webp" },
+        { "type": "name", "content": "Tour Guide from the Underworld" },
+        {
+          "type": "text",
+          "content": "Welcome to the TOSS Gauntlet!\nThis is a PvP Campaign where you draft and build a deck using mostly TOSS or Eternal Format (2019) cards.\nPacks are themed, and by the end you should have a roughly era-accurate deck."
+        },
+        { "type": "text", "content": "Good Luck!" }
+      ]
+    }
+  },
+
+  "ends": {
+    "win": {
+      "micon": "area.webp",
+      "image": "gameover.webp",
+      "audio": "victory.mp3",
+      "title": "\nCongratulations!\nThanks for playing!"
+    },
+    "lose": {
+      "micon": "area.webp",
+      "image": "gameover.webp",
+      "audio": "victory.mp3",
+      "title": "\nComisserations!\nThanks for playing!"
+    }
+  },
+
+  "dupe": {
+    "main": {
+      "micon": "dupe.webp",
+      "image": "event_dupe.webp",
+      "title": "Duplicate 1 card from your maindeck!",
+      "shows": "40",
+      "seeks": ["main"]
+    }
+  },
+
+  "pick": {
+    "FIRE": {
+      "micon": "FIRE.webp",
+      "image": "event_pick.webp",
+      "audio": "none",
+      "title": "FIRE"
+    },
+    "WATER": {
+      "micon": "WATER.webp",
+      "image": "event_pick.webp",
+      "audio": "none",
+      "title": "FIRE"
+    },
+    "WIND": {
+      "micon": "WIND.webp",
+      "image": "event_pick.webp",
+      "audio": "none",
+      "title": "FIRE"
+    },
+    "EARTH": {
+      "micon": "EARTH.webp",
+      "image": "event_pick.webp",
+      "audio": "none",
+      "title": "FIRE"
+    },
+    "LIGHT": {
+      "micon": "LIGHT.webp",
+      "image": "event_pick.webp",
+      "audio": "none",
+      "title": "FIRE"
+    },
+    "DARK": {
+      "micon": "DARK.webp",
+      "image": "event_pick.webp",
+      "audio": "none",
+      "title": "FIRE"
+    },
+
+    "sptr_monster": {
+      "micon": "st_mons.webp",
+      "image": "event_pack.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Monster Removal"
+    },
+    "sptr_spellTrap": {
+      "micon": "st_spell.webp",
+      "image": "event_pack.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "S/T Removal"
+    },
+    "sptr_utility": {
+      "micon": "st_utility.webp",
+      "image": "event_pack.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Utility"
+    }
+  },
+
+  "pack": {
+    "theme": {
+      "micon": "pack.webp",
+      "image": "event_pack.webp",
+      "audio": "none",
+      "title": "Theme"
+    },
+
+    "sdck": {
+      "micon": "pack.webp",
+      "image": "event_pack.webp",
+      "audio": "none",
+      "title": "Big 4 Deck"
+    },
+
+    "starter": {
+      "micon": "pack.webp",
+      "image": "event_pack.webp",
+      "audio": "none",
+      "title": "asd"
+    }
+  },
+
+  "duel": {
+    "duel_1": {
+      "micon": "duel.webp",
+      "video": "duel_1.mp4",
+      "audio": "duel_1.mp3",
+      "image": "duelingbook_enemy_background.webp",
+      "dbimg": "Enemy.webp",
+      "title": "none",
+      "chain": "area: 1",
+      "lives": 1,
+      "ydke": "none"
+    },
+    "duel_2": {
+      "micon": "duel.webp",
+      "video": "duel_2.mp4",
+      "audio": "duel_2.mp3",
+      "image": "duelingbook_enemy_background.webp",
+      "dbimg": "Enemy.webp",
+      "title": "none",
+      "chain": "area: 2",
+      "lives": 1,
+      "ydke": "none"
+    },
+    "duel_3": {
+      "micon": "duel.webp",
+      "video": "duel_3.mp4",
+      "audio": "duel_3.mp3",
+      "image": "duelingbook_enemy_background.webp",
+      "dbimg": "Enemy.webp",
+      "title": "none",
+      "chain": "area: 3",
+      "lives": 1,
+      "ydke": "none"
+    },
+    "duel_4": {
+      "micon": "duel.webp",
+      "video": "duel_4.mp4",
+      "audio": "duel_4.mp3",
+      "image": "duelingbook_enemy_background.webp",
+      "dbimg": "Enemy.webp",
+      "title": "none",
+      "chain": "area: 4",
+      "lives": 1,
+      "ydke": "none"
+    },
+    "duel_5": {
+      "micon": "duel.webp",
+      "video": "duel_5.mp4",
+      "audio": "duel_5.mp3",
+      "image": "duelingbook_enemy_background.webp",
+      "dbimg": "Enemy.webp",
+      "title": "none",
+      "wins": "ends: win",
+      "lose": "ends: lose",
+      "lives": 1,
+      "ydke": "none"
+    }
+  }
+}

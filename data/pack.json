@@ -133,7 +133,8 @@
       "Psychic Wheeleder",
       "Micro Coder",
       "Knightmare Corruptor Iblee",
-      "Decode Talker"
+      "Decode Talker",
+      "Transcode Talker"
     ]
   },
   "sd_striker": {
@@ -336,7 +337,10 @@
       "Cyber Dragon Nova",
       "Cyber Dragon Sieger",
       "Chimeratech Fortress Dragon",
-      "Chimeratech Megafleet Dragon"
+      "Chimeratech Megafleet Dragon",
+      "Gold Gadget",
+      "Silver Gadget",
+      "Galaxy Soldier"
     ]
   },
   "stun": {
@@ -474,7 +478,6 @@
     "limit": 3,
     "card": [
       "Evenly Matched",
-      "Forbidden Droplet",
       "Mind Control",
       "Dinowrestler Pankratops",
       "The Winged Dragon of Ra - Sphere Mode",
@@ -521,7 +524,8 @@
       "Saryuja Skull Dread",
       "Black Rose Dragon",
       "Triple Burst Dragon",
-      "Decode Talker"
+      "Decode Talker",
+      "Link Spider"
     ]
   },
   "masterpack": {
@@ -733,7 +737,6 @@
       "Altergeist Hexstia",
       "Altergeist Primebanshee",
       "Evenly Matched",
-      "Forbidden Droplet",
       "Mind Control",
       "Dinowrestler Pankratops",
       "The Winged Dragon of Ra - Sphere Mode",
@@ -836,7 +839,12 @@
       "Saryuja Skull Dread",
       "Black Rose Dragon",
       "Triple Burst Dragon",
-      "Decode Talker"
+      "Decode Talker",
+      "Transcode Talker",
+      "Gold Gadget",
+      "Silver Gadget",
+      "Link Spider",
+      "Galaxy Soldier"
     ]
   }
 }

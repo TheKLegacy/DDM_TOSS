@@ -343,10 +343,10 @@
       "Galaxy Soldier"
     ]
   },
-  "stun": {
+  "backrow": {
     "type": ["theme", "deck"],
-    "name": "Stun",
-    "desc": "Contains Generic Stun Cards and Archtypes like True Draco, Altergeist, and Subterrors. Also contains solemns.",
+    "name": "Backrow",
+    "desc": "Contains Archtypes like True Draco, Altergeist, and Subterrors. Also contains solemns.",
     "icon": "stun.webp",
     "shows": 20,
     "limit": 3,
@@ -356,10 +356,8 @@
       "Altergeist Meluseek",
       "Altergeist Multifaker",
       "Amano-Iwato",
-      "Banisher of the Radiance",
       "Caius the Shadow Monarch",
       "Dinomight Knight, the True Dracofighter",
-      "Fossil Dyna Pachycephalo",
       "Ignis Heat, the True Dracowarrior",
       "Inspector Boarder",
       "Majesty Maiden, the True Dracocaster",
@@ -368,14 +366,11 @@
       "Subterror Fiendess",
       "Subterror Guru",
       "Subterror Nemesis Archer",
-      "Thunder King Rai-Oh",
       "Book of Lunar Eclipse",
       "Book of Moon",
-      "Dimensional Fissure",
       "Disciples of the True Dracophoenix",
       "Domain of the True Monarchs",
       "Dragonic Diagram",
-      "Mystic Mine",
       "Pantheism of the Monarchs",
       "Return of the Monarchs",
       "Strike of the Monarchs",
@@ -407,6 +402,44 @@
       "Typhoon",
       "Altergeist Hexstia",
       "Altergeist Primebanshee"
+    ]
+  },
+  "antimeta": {
+    "type": ["theme", "deck"],
+    "name": "Anti-Meta",
+    "desc": "Contains Generic Stun Cards and Gren Maju",
+    "icon": "macro.webp",
+    "shows": 20,
+    "limit": 3,
+    "card": [
+      "There Can Be Only One",
+      "Solemn Judgment",
+      "Solemn Strike",
+      "Solemn Warning",
+      "Summon Limit",
+      "Rivalry of Warlords",
+      "Rivalry of Warlords",
+      "Macro Cosmos",
+      "Imperial Order",
+      "Gozen Match",
+      "Terraforming",
+      "Mystic Mine",
+      "Metaverse",
+      "Dimensional Fissure",
+      "Inspector Boarder",
+      "Fossil Dyna Pachycephalo",
+      "Amano-Iwato",
+      "Banisher of the Radiance",
+      "Gren Maju Da Eiza",
+      "Eater of Millions",
+      "Golden Castle of Stromberg",
+      "Hexe Trude",
+      "Pumpkin Carriage",
+      "Prinzessin",
+      "Iron Hans",
+      "Iron Knight",
+      "Iron Cage",
+      "Glife the Phantom Bird"
     ]
   },
   "handtraps": {
@@ -844,7 +877,17 @@
       "Gold Gadget",
       "Silver Gadget",
       "Link Spider",
-      "Galaxy Soldier"
+      "Galaxy Soldier",
+      "Gren Maju Da Eiza",
+      "Eater of Millions",
+      "Golden Castle of Stromberg",
+      "Hexe Trude",
+      "Pumpkin Carriage",
+      "Prinzessin",
+      "Iron Hans",
+      "Iron Knight",
+      "Iron Cage",
+      "Glife the Phantom Bird"
     ]
   }
 }

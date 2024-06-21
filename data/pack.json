@@ -56,7 +56,13 @@
       "The Ascended of Thunder",
       "Chaos Sorcerer",
       "Black Luster Soldier - Envoy of the Beginning",
-      "Thunder King Rai-Oh"
+      "Thunder King Rai-Oh",
+      "Denko Sekka",
+      "Fantastical Dragon Phantazmay",
+      "Paleozoic Dinomischus",
+      "Chaos Dragon Levianeer",
+      "One for One",
+      "Omni Dragon Brotaur"
     ]
   },
   "sd_orcust": {
@@ -95,7 +101,8 @@
       "Topologic Trisbaena",
       "Foolish Burial",
       "Orcustrated Return",
-      "Galatea, the Orcust Automaton"
+      "Galatea, the Orcust Automaton",
+      "Knightmare Unicorn"
     ]
   },
   "sd_salamangreat": {
@@ -131,12 +138,11 @@
       "Sea Archiver",
       "Cynet Mining",
       "Backup Secretary",
-      "Psychic Tracker",
-      "Psychic Wheeleder",
       "Micro Coder",
       "Knightmare Corruptor Iblee",
       "Decode Talker",
-      "Transcode Talker"
+      "Transcode Talker",
+      "Salamangreat Meer"
     ]
   },
   "sd_striker": {
@@ -167,7 +173,12 @@
       "Sky Striker Ace - Hayate",
       "Sky Striker Ace - Kagari",
       "Sky Striker Ace - Kaina",
-      "Sky Striker Ace - Shizuku"
+      "Sky Striker Ace - Shizuku",
+      "Called by the Grave",
+      "Into the Void",
+      "Shared Ride",
+      "Card of Demise",
+      "Twin Twisters"
     ]
   },
   "warriorsanddragons": {
@@ -235,7 +246,8 @@
       "World Legacy Guardragon",
       "Guardragon Elpy",
       "Guardragon Agarpain",
-      "Triple Burst Dragon"
+      "Triple Burst Dragon",
+      "Destiny HERO - Malicious"
     ]
   },
   "endymion": {
@@ -243,7 +255,7 @@
     "name": "Pendulum",
     "desc": "Contains pendulum magicians, edymions, and zefras",
     "icon": "pendulum.webp",
-    "shows": 20,
+    "shows": 24,
     "limit": 3,
     "card": [
       "Mythical Institution",
@@ -303,7 +315,7 @@
     "name": "Machine",
     "desc": "Contains Mekk-Knights and Cyber Dragons. Also has Machinas, ABCs, and Scraps",
     "icon": "machine.webp",
-    "shows": 20,
+    "shows": 24,
     "limit": 3,
     "card": [
       "Machina Gearframe",
@@ -350,7 +362,7 @@
     "name": "Backrow",
     "desc": "Contains Archtypes like True Draco, Altergeist, and Subterrors. Also contains solemns.",
     "icon": "stun.webp",
-    "shows": 20,
+    "shows": 24,
     "limit": 3,
     "card": [
       "Altergeist Kunquery",
@@ -358,7 +370,6 @@
       "Altergeist Meluseek",
       "Altergeist Multifaker",
       "Amano-Iwato",
-      "Caius the Shadow Monarch",
       "Dinomight Knight, the True Dracofighter",
       "Ignis Heat, the True Dracowarrior",
       "Inspector Boarder",
@@ -401,9 +412,11 @@
       "There Can Be Only One",
       "True Draco Apocalypse",
       "True King's Return",
-      "Typhoon",
       "Altergeist Hexstia",
-      "Altergeist Primebanshee"
+      "Altergeist Primebanshee",
+      "Card of Demise",
+      "Pot of Extravagance",
+      "Pot of Duality"
     ]
   },
   "antimeta": {
@@ -441,7 +454,19 @@
       "Iron Hans",
       "Iron Knight",
       "Iron Cage",
-      "Glife the Phantom Bird"
+      "Glife the Phantom Bird",
+      "Vanity's Fiend",
+      "Vanity's Ruler",
+      "Pot of Extravagance",
+      "Pot of Duality",
+      "Upstart Goblin",
+      "Bottomless Trap Hole",
+      "Trap Trick",
+      "Compulsory Evacuation Device",
+      "Spirit Reaper",
+      "Torrential Tribute",
+      "Card of Demise",
+      "Necroface"
     ]
   },
   "handtraps": {
@@ -450,7 +475,6 @@
     "shows": 10,
     "limit": 3,
     "card": [
-      "Ghostrick Jackfrost",
       "PSY-Framegear Alpha",
       "Infinite Impermanence",
       "Ghost Ogre & Snow Rabbit",
@@ -465,11 +489,9 @@
       "PSY-Framegear Delta",
       "Ghost Belle & Haunted Mansion",
       "Ash Blossom & Joyous Spring",
-      "Tragoedia",
-      "Gorz the Emissary of Darkness",
+      "Ghost Reaper & Winter Cherries",
       "Chaos Hunter",
       "Effect Veiler",
-      "Battle Fader",
       "PSY-Frame Driver",
       "Fantastical Dragon Phantazmay",
       "Gnomaterial"
@@ -490,20 +512,17 @@
       "Foolish Burial",
       "Foolish Burial Goods",
       "Pot of Desires",
-      "Compulsory Evacuation Device",
-      "Unending Nightmare",
       "Metaverse",
       "Terraforming",
       "Eradicator Epidemic Virus",
       "One for One",
       "Upstart Goblin",
       "Called by the Grave",
-      "Pot of Extravagance",
-      "Denko Sekka",
-      "Pot of Duality",
-      "Imperial Order",
       "Summon Limit",
-      "Instant Fusion"
+      "Instant Fusion",
+      "Heavy Storm Duster",
+      "Unending Nightmare",
+      "Typhoon"
     ]
   },
   "goingsecond": {
@@ -527,7 +546,9 @@
       "Dogoran, the Mad Flame Kaiju",
       "Dark Ruler No More",
       "Enemy Controller",
-      "Red Reboot"
+      "Red Reboot",
+      "Dark Hole",
+      "Twin Twisters"
     ]
   },
   "extradeck": {
@@ -560,7 +581,9 @@
       "Black Rose Dragon",
       "Triple Burst Dragon",
       "Decode Talker",
-      "Link Spider"
+      "Link Spider",
+      "PSY-Framelord Lambda",
+      "Black Luster Soldier - Soldier of Chaos"
     ]
   },
   "masterpack": {
@@ -889,7 +912,25 @@
       "Iron Hans",
       "Iron Knight",
       "Iron Cage",
-      "Glife the Phantom Bird"
+      "Glife the Phantom Bird",
+      "Vanity's Fiend",
+      "Vanity's Ruler",
+      "Pot of Extravagance",
+      "Pot of Duality",
+      "Upstart Goblin",
+      "Bottomless Trap Hole",
+      "Trap Trick",
+      "Compulsory Evacuation Device",
+      "Spirit Reaper",
+      "Torrential Tribute",
+      "Dark Hole",
+      "Card of Demise",
+      "Heavy Storm Duster",
+      "Unending Nightmare",
+      "Destiny HERO - Malicious",
+      "Necroface",
+      "PSY-Framelord Lambda",
+      "Black Luster Soldier - Soldier of Chaos"
     ]
   }
 }

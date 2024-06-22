@@ -1,16 +1,6 @@
 <<<<<<< HEAD
-3rd Party TOSS/Eternal Format Campaign for Dungeon Duel Monsters:https://mikaygo.itch.io/ddmTODO:High:Improve Cardpool & BanlistMedium:Add/Split two packs:Danger, Warriers, Dragons -> Warriors & Drgons - Danger & LunalightStun -> Backrow (True Draco, Altergeist, Subterror), Anti-Meta/Gren MajuLow:Replace Zexal Duel Profile PicsReplace Zexal Duel AnimationReplace Zexal MusicReplace Zexal backgrounds
-=======
 3rd Party TOSS/Eternal Format Campaign for Dungeon Duel Monsters:
 https://mikaygo.itch.io/ddm
-
-TODO:
-
-Add Nekroz
-Add Lunalight
-Add BA?
-
-Add super poly + targets to going second
 
 Replace old Zexal assets
 

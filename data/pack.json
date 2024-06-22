@@ -21,7 +21,8 @@
       "Dragonic Diagram",
       "The Phantom Knights of Rusty Bardiche",
       "Isolde, Two Tales of the Noble Knights",
-      "Heavymetalfoes Electrumite"
+      "Heavymetalfoes Electrumite",
+      "Gren Maju Da Eiza"
     ]
   },
   "sd_thunderdragon": {
@@ -55,7 +56,13 @@
       "The Ascended of Thunder",
       "Chaos Sorcerer",
       "Black Luster Soldier - Envoy of the Beginning",
-      "Thunder King Rai-Oh"
+      "Thunder King Rai-Oh",
+      "Denko Sekka",
+      "Fantastical Dragon Phantazmay",
+      "Paleozoic Dinomischus",
+      "Chaos Dragon Levianeer",
+      "One for One",
+      "Omni Dragon Brotaur"
     ]
   },
   "sd_orcust": {
@@ -72,6 +79,7 @@
       "Orcust Knightmare",
       "Trickstar Corobane",
       "Trickstar Light Stage",
+      "Trickstar Candina",
       "Orcust Crescendo",
       "Dingirsu, the Orcust of the Evening Star",
       "Orcustrated Babel",
@@ -93,7 +101,8 @@
       "Topologic Trisbaena",
       "Foolish Burial",
       "Orcustrated Return",
-      "Galatea, the Orcust Automaton"
+      "Galatea, the Orcust Automaton",
+      "Knightmare Unicorn"
     ]
   },
   "sd_salamangreat": {
@@ -129,11 +138,11 @@
       "Sea Archiver",
       "Cynet Mining",
       "Backup Secretary",
-      "Psychic Tracker",
-      "Psychic Wheeleder",
       "Micro Coder",
       "Knightmare Corruptor Iblee",
-      "Decode Talker"
+      "Decode Talker",
+      "Transcode Talker",
+      "Salamangreat Meer"
     ]
   },
   "sd_striker": {
@@ -164,7 +173,12 @@
       "Sky Striker Ace - Hayate",
       "Sky Striker Ace - Kagari",
       "Sky Striker Ace - Kaina",
-      "Sky Striker Ace - Shizuku"
+      "Sky Striker Ace - Shizuku",
+      "Called by the Grave",
+      "Into the Void",
+      "Shared Ride",
+      "Card of Demise",
+      "Twin Twisters"
     ]
   },
   "warriorsanddragons": {
@@ -232,7 +246,8 @@
       "World Legacy Guardragon",
       "Guardragon Elpy",
       "Guardragon Agarpain",
-      "Triple Burst Dragon"
+      "Triple Burst Dragon",
+      "Destiny HERO - Malicious"
     ]
   },
   "endymion": {
@@ -240,7 +255,7 @@
     "name": "Pendulum",
     "desc": "Contains pendulum magicians, edymions, and zefras",
     "icon": "pendulum.webp",
-    "shows": 20,
+    "shows": 24,
     "limit": 3,
     "card": [
       "Mythical Institution",
@@ -300,7 +315,7 @@
     "name": "Machine",
     "desc": "Contains Mekk-Knights and Cyber Dragons. Also has Machinas, ABCs, and Scraps",
     "icon": "machine.webp",
-    "shows": 20,
+    "shows": 24,
     "limit": 3,
     "card": [
       "Machina Gearframe",
@@ -336,7 +351,10 @@
       "Cyber Dragon Nova",
       "Cyber Dragon Sieger",
       "Chimeratech Fortress Dragon",
-      "Chimeratech Megafleet Dragon"
+      "Chimeratech Megafleet Dragon",
+      "Gold Gadget",
+      "Silver Gadget",
+      "Galaxy Soldier"
     ]
   },
   "truedraco": {
@@ -419,10 +437,10 @@
   },
   "stun": {
     "type": ["theme", "deck"],
-    "name": "Stun",
-    "desc": "Contains Generic Stun Cards and Archtypes like True Draco, Altergeist, and Subterrors. Also contains solemns.",
+    "name": "Backrow",
+    "desc": "Contains Archtypes like True Draco, Altergeist, and Subterrors. Also contains solemns.",
     "icon": "stun.webp",
-    "shows": 20,
+    "shows": 24,
     "limit": 3,
     "card": [
       "Altergeist Kunquery",
@@ -430,10 +448,7 @@
       "Altergeist Meluseek",
       "Altergeist Multifaker",
       "Amano-Iwato",
-      "Banisher of the Radiance",
-      "Caius the Shadow Monarch",
       "Dinomight Knight, the True Dracofighter",
-      "Fossil Dyna Pachycephalo",
       "Ignis Heat, the True Dracowarrior",
       "Inspector Boarder",
       "Majesty Maiden, the True Dracocaster",
@@ -442,14 +457,11 @@
       "Subterror Fiendess",
       "Subterror Guru",
       "Subterror Nemesis Archer",
-      "Thunder King Rai-Oh",
       "Book of Lunar Eclipse",
       "Book of Moon",
-      "Dimensional Fissure",
       "Disciples of the True Dracophoenix",
       "Domain of the True Monarchs",
       "Dragonic Diagram",
-      "Mystic Mine",
       "Pantheism of the Monarchs",
       "Return of the Monarchs",
       "Strike of the Monarchs",
@@ -478,9 +490,61 @@
       "There Can Be Only One",
       "True Draco Apocalypse",
       "True King's Return",
-      "Typhoon",
       "Altergeist Hexstia",
-      "Altergeist Primebanshee"
+      "Altergeist Primebanshee",
+      "Card of Demise",
+      "Pot of Extravagance",
+      "Pot of Duality"
+    ]
+  },
+  "antimeta": {
+    "type": ["theme", "deck"],
+    "name": "Anti-Meta",
+    "desc": "Contains Generic Stun Cards and Gren Maju",
+    "icon": "macro.webp",
+    "shows": 20,
+    "limit": 3,
+    "card": [
+      "There Can Be Only One",
+      "Solemn Judgment",
+      "Solemn Strike",
+      "Solemn Warning",
+      "Summon Limit",
+      "Rivalry of Warlords",
+      "Rivalry of Warlords",
+      "Macro Cosmos",
+      "Imperial Order",
+      "Gozen Match",
+      "Terraforming",
+      "Mystic Mine",
+      "Metaverse",
+      "Dimensional Fissure",
+      "Inspector Boarder",
+      "Fossil Dyna Pachycephalo",
+      "Amano-Iwato",
+      "Banisher of the Radiance",
+      "Gren Maju Da Eiza",
+      "Eater of Millions",
+      "Golden Castle of Stromberg",
+      "Hexe Trude",
+      "Pumpkin Carriage",
+      "Prinzessin",
+      "Iron Hans",
+      "Iron Knight",
+      "Iron Cage",
+      "Glife the Phantom Bird",
+      "Vanity's Fiend",
+      "Vanity's Ruler",
+      "Pot of Extravagance",
+      "Pot of Duality",
+      "Upstart Goblin",
+      "Bottomless Trap Hole",
+      "Trap Trick",
+      "Compulsory Evacuation Device",
+      "Spirit Reaper",
+      "Torrential Tribute",
+      "Card of Demise",
+      "Necroface"
     ]
   },
   "handtraps": {
@@ -489,7 +553,6 @@
     "shows": 10,
     "limit": 3,
     "card": [
-      "Ghostrick Jackfrost",
       "PSY-Framegear Alpha",
       "Infinite Impermanence",
       "Ghost Ogre & Snow Rabbit",
@@ -504,11 +567,9 @@
       "PSY-Framegear Delta",
       "Ghost Belle & Haunted Mansion",
       "Ash Blossom & Joyous Spring",
-      "Tragoedia",
-      "Gorz the Emissary of Darkness",
+      "Ghost Reaper & Winter Cherries",
       "Chaos Hunter",
       "Effect Veiler",
-      "Battle Fader",
       "PSY-Frame Driver",
       "Fantastical Dragon Phantazmay",
       "Gnomaterial"
@@ -529,20 +590,17 @@
       "Foolish Burial",
       "Foolish Burial Goods",
       "Pot of Desires",
-      "Compulsory Evacuation Device",
-      "Unending Nightmare",
       "Metaverse",
       "Terraforming",
       "Eradicator Epidemic Virus",
       "One for One",
       "Upstart Goblin",
       "Called by the Grave",
-      "Pot of Extravagance",
-      "Denko Sekka",
-      "Pot of Duality",
-      "Imperial Order",
       "Summon Limit",
-      "Instant Fusion"
+      "Instant Fusion",
+      "Heavy Storm Duster",
+      "Unending Nightmare",
+      "Typhoon"
     ]
   },
   "goingsecond": {
@@ -552,7 +610,6 @@
     "limit": 3,
     "card": [
       "Evenly Matched",
-      "Forbidden Droplet",
       "Mind Control",
       "Dinowrestler Pankratops",
       "The Winged Dragon of Ra - Sphere Mode",
@@ -567,7 +624,9 @@
       "Dogoran, the Mad Flame Kaiju",
       "Dark Ruler No More",
       "Enemy Controller",
-      "Red Reboot"
+      "Red Reboot",
+      "Dark Hole",
+      "Twin Twisters"
     ]
   },
   "extradeck": {
@@ -599,7 +658,10 @@
       "Saryuja Skull Dread",
       "Black Rose Dragon",
       "Triple Burst Dragon",
-      "Decode Talker"
+      "Decode Talker",
+      "Link Spider",
+      "PSY-Framelord Lambda",
+      "Black Luster Soldier - Soldier of Chaos"
     ]
   },
   "masterpack": {
@@ -811,7 +873,6 @@
       "Altergeist Hexstia",
       "Altergeist Primebanshee",
       "Evenly Matched",
-      "Forbidden Droplet",
       "Mind Control",
       "Dinowrestler Pankratops",
       "The Winged Dragon of Ra - Sphere Mode",
@@ -916,7 +977,40 @@
       "Triple Burst Dragon",
       "Decode Talker",
       "Anti-Spell Fragrance",
-      "Dreiath III, the True Dracocavalry General"
+      "Dreiath III, the True Dracocavalry General",
+      "Transcode Talker",
+      "Gold Gadget",
+      "Silver Gadget",
+      "Link Spider",
+      "Galaxy Soldier",
+      "Gren Maju Da Eiza",
+      "Eater of Millions",
+      "Golden Castle of Stromberg",
+      "Hexe Trude",
+      "Pumpkin Carriage",
+      "Prinzessin",
+      "Iron Hans",
+      "Iron Knight",
+      "Iron Cage",
+      "Glife the Phantom Bird",
+      "Vanity's Fiend",
+      "Vanity's Ruler",
+      "Pot of Extravagance",
+      "Pot of Duality",
+      "Upstart Goblin",
+      "Bottomless Trap Hole",
+      "Trap Trick",
+      "Compulsory Evacuation Device",
+      "Spirit Reaper",
+      "Torrential Tribute",
+      "Dark Hole",
+      "Card of Demise",
+      "Heavy Storm Duster",
+      "Unending Nightmare",
+      "Destiny HERO - Malicious",
+      "Necroface",
+      "PSY-Framelord Lambda",
+      "Black Luster Soldier - Soldier of Chaos"
     ]
   }
 }

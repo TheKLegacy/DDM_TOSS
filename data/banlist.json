@@ -1,8 +1,7 @@
 {
-  "0": [
-  ],
+  "0": [],
   "1": [
-    "Solemn Judgment", 
+    "Solemn Judgment",
     "Solemn Warning",
     "Skill Drain",
     "Macro Cosmos",
@@ -21,9 +20,8 @@
     "Imperial Order",
     "Sky Striker Mecha - Hornet Drones",
     "Dark Grepher",
-    "Armageddon Knight"
+    "Armageddon Knight",
+    "Dark Hole"
   ],
-  "2": [
-    "Terraforming"
-  ]
+  "2": ["Terraforming", "Destiny HERO - Malicious", "Necroface"]
 }

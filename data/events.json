@@ -52,10 +52,11 @@
           "pick: sd_thunderdragon"
         ],
         [
-          "pick: stun",
+          "pick: backrow",
           "pick: endymion",
           "pick: machine",
-          "pick: warriorsanddragons"
+          "pick: warriorsanddragons",
+          "pick: antimeta"
         ],
         [
           "pick: handtraps",
@@ -203,9 +204,16 @@
       "title": "none",
       "mdesc": "Machines"
     },
-    "stun": {
+    "backrow": {
       "micon": "stun.webp",
       "image": "stun.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Backrow Decks"
+    },
+    "antimeta": {
+      "micon": "macro.webp",
+      "image": "macro.webp",
       "audio": "none",
       "title": "none",
       "mdesc": "Stun Decks"

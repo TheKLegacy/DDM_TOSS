@@ -52,11 +52,13 @@
           "pick: sd_thunderdragon"
         ],
         [
-          "pick: backrow",
+          "pick: altergeist",
+          "pick: truedraco",
+          "pick: subterror",
+          "pick: grenmaju",
           "pick: endymion",
           "pick: machine",
-          "pick: warriorsanddragons",
-          "pick: antimeta"
+          "pick: warriorsanddragons"
         ],
         [
           "pick: handtraps",
@@ -204,19 +206,33 @@
       "title": "none",
       "mdesc": "Machines"
     },
-    "backrow": {
-      "micon": "stun.webp",
-      "image": "stun.webp",
+    "truedraco": {
+      "micon": "truedraco.webp",
+      "image": "truedraco.webp",
       "audio": "none",
       "title": "none",
-      "mdesc": "Backrow Decks"
+      "mdesc": "True Draco"
     },
-    "antimeta": {
-      "micon": "macro.webp",
-      "image": "macro.webp",
+    "altergeist": {
+      "micon": "altergeist.webp",
+      "image": "altergeist.webp",
       "audio": "none",
       "title": "none",
-      "mdesc": "Stun Decks"
+      "mdesc": "Altergeist"
+    },
+    "subterror": {
+      "micon": "subterror.webp",
+      "image": "subterror.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Subterror"
+    },
+    "grenmaju": {
+      "micon": "grenmaju.webp",
+      "image": "grenmaju.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Gren Maju"
     },
     "endymion": {
       "micon": "pendulum.webp",

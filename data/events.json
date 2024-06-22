@@ -56,9 +56,12 @@
           "pick: truedraco",
           "pick: subterror",
           "pick: grenmaju",
+          "pick: nekroz",
           "pick: endymion",
           "pick: machine",
-          "pick: warriorsanddragons"
+          "pick: warriors",
+          "pick: dragons",
+          "pick: lunalight"
         ],
         [
           "pick: handtraps",
@@ -192,12 +195,26 @@
       "title": "none",
       "mdesc": "Sky Striker"
     },
-    "warriorsanddragons": {
+    "warriors": {
       "micon": "darkwarriordragon.webp",
       "image": "darkwarriordragon.webp",
       "audio": "none",
       "title": "none",
-      "mdesc": "Dangers, Dragons, and Warriors"
+      "mdesc": "Warriors"
+    },
+    "dragons": {
+      "micon": "chaosdragons.webp",
+      "image": "chaosdragons.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Chaos Dragons"
+    },
+    "lunalight": {
+      "micon": "lunalight.webp",
+      "image": "lunalight.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Lunalight"
     },
     "machine": {
       "micon": "machine.webp",
@@ -240,6 +257,13 @@
       "audio": "none",
       "title": "none",
       "mdesc": "Pendulum"
+    },
+    "nekroz": {
+      "micon": "nekroz.webp",
+      "image": "nekroz.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Nekroz"
     }
   },
 

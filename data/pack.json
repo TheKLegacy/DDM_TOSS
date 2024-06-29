@@ -63,7 +63,8 @@
       "Paleozoic Dinomischus",
       "Chaos Dragon Levianeer",
       "One for One",
-      "Omni Dragon Brotaur"
+      "Omni Dragon Brotaur",
+      "The Beginning Of The End"
     ]
   },
   "sd_orcust": {
@@ -181,8 +182,7 @@
       "Into the Void",
       "Shared Ride",
       "Card of Demise",
-      "Twin Twisters",
-      "Beginning Of The End"
+      "Twin Twisters"
     ]
   },
   "dragons": {
@@ -229,7 +229,7 @@
       "Crusadia Maximus",
       "Crusadia Draco",
       "Saryuja Skull Dread",
-      "Beginning Of The End"
+      "The Beginning Of The End"
     ]
   },
   "lunalight": {
@@ -1167,7 +1167,10 @@
       "Fusion Tag",
       "Lunalight Panther Dancer",
       "Lunalight Leo Dancer",
-      "Lunalight Cat Dancer"
+      "Lunalight Cat Dancer",
+      "Trickstar Lycoris",
+      "Trickstar Lilybell",
+      "The Beginning Of The End"
     ]
   }
 }

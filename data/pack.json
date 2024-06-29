@@ -22,7 +22,8 @@
       "The Phantom Knights of Rusty Bardiche",
       "Isolde, Two Tales of the Noble Knights",
       "Heavymetalfoes Electrumite",
-      "Gren Maju Da Eiza"
+      "Gren Maju Da Eiza",
+      "Trickstar Reincarnation"
     ]
   },
   "sd_thunderdragon": {
@@ -68,7 +69,7 @@
   "sd_orcust": {
     "type": ["sdck", "deck"],
     "name": "Orcust",
-    "desc": "Contains Orcust Cards. Also contains Grepher, Armageddon Knight, and Foolish Burial",
+    "desc": "Contains Orcust Cards. Also contains Trickstar",
     "icon": "orcust.webp",
     "shows": 20,
     "limit": 3,
@@ -102,7 +103,9 @@
       "Foolish Burial",
       "Orcustrated Return",
       "Galatea, the Orcust Automaton",
-      "Knightmare Unicorn"
+      "Knightmare Unicorn",
+      "Trickstar Lycoris",
+      "Trickstar Lilybell"
     ]
   },
   "sd_salamangreat": {
@@ -178,7 +181,8 @@
       "Into the Void",
       "Shared Ride",
       "Card of Demise",
-      "Twin Twisters"
+      "Twin Twisters",
+      "Beginning Of The End"
     ]
   },
   "dragons": {
@@ -223,7 +227,9 @@
       "Fantastical Dragon Phantazmay",
       "Red-Eyes Darkness Metal Dragon",
       "Crusadia Maximus",
-      "Crusadia Draco"
+      "Crusadia Draco",
+      "Saryuja Skull Dread",
+      "Beginning Of The End"
     ]
   },
   "lunalight": {
@@ -273,8 +279,8 @@
   },
   "warriors": {
     "type": ["theme", "deck"],
-    "name": "Danger!? Warriors And Dragons!",
-    "desc": "Contains Dangers, Dragons and Warriors",
+    "name": "Warriors",
+    "desc": "Contains Dark Warriors and Level 2 stuff.",
     "icon": "darkwarriordragon.webp",
     "shows": 20,
     "limit": 3,

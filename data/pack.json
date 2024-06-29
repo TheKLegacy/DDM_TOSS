@@ -64,7 +64,7 @@
       "Chaos Dragon Levianeer",
       "One for One",
       "Omni Dragon Brotaur",
-      "The Beginning Of The End"
+      "The Beginning of the End"
     ]
   },
   "sd_orcust": {
@@ -229,7 +229,7 @@
       "Crusadia Maximus",
       "Crusadia Draco",
       "Saryuja Skull Dread",
-      "The Beginning Of The End"
+      "The Beginning of the End"
     ]
   },
   "lunalight": {
@@ -280,7 +280,7 @@
   "warriors": {
     "type": ["theme", "deck"],
     "name": "Warriors",
-    "desc": "Contains Dark Warriors and Level 2 stuff.",
+    "desc": "Contains Dark Warriors and Level 3 stuff.",
     "icon": "darkwarriordragon.webp",
     "shows": 20,
     "limit": 3,
@@ -1170,7 +1170,7 @@
       "Lunalight Cat Dancer",
       "Trickstar Lycoris",
       "Trickstar Lilybell",
-      "The Beginning Of The End"
+      "The Beginning of the End"
     ]
   }
 }

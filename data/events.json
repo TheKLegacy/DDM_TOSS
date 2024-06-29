@@ -61,7 +61,8 @@
           "pick: machine",
           "pick: warriors",
           "pick: dragons",
-          "pick: lunalight"
+          "pick: lunalight",
+          "pick: baearth"
         ],
         [
           "pick: handtraps",
@@ -201,6 +202,13 @@
       "audio": "none",
       "title": "none",
       "mdesc": "Warriors"
+    },
+    "baearth": {
+      "micon": "baearth.webp",
+      "image": "baearth.webp",
+      "audio": "none",
+      "title": "none",
+      "mdesc": "Earth Burning Abyss"
     },
     "dragons": {
       "micon": "chaosdragons.webp",

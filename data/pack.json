@@ -23,7 +23,8 @@
       "Isolde, Two Tales of the Noble Knights",
       "Heavymetalfoes Electrumite",
       "Gren Maju Da Eiza",
-      "Trickstar Reincarnation"
+      "Trickstar Reincarnation",
+      "Block Dragon"
     ]
   },
   "sd_thunderdragon": {
@@ -154,7 +155,7 @@
     "name": "Sky Striker",
     "desc": "Contains Striker Cards",
     "icon": "skystriker.webp",
-    "shows": 20,
+    "shows": 18,
     "limit": 3,
     "card": [
       "Sky Striker Ace - Raye",
@@ -229,7 +230,8 @@
       "Crusadia Maximus",
       "Crusadia Draco",
       "Saryuja Skull Dread",
-      "The Beginning of the End"
+      "The Beginning of the End",
+      "Defrag Dragon"
     ]
   },
   "lunalight": {
@@ -321,7 +323,62 @@
       "Danger! Dogman!",
       "Destiny HERO - Malicious",
       "Psychic Tracker",
-      "Psychic Wheeleder"
+      "Psychic Wheeleder",
+      "Defrag Dragon"
+    ]
+  },
+  "baearth": {
+    "type": ["theme", "deck"],
+    "name": "Earth Burning Abyss",
+    "desc": "Contains Burning Abyss, Earth, and Level 3 stuff.",
+    "icon": "baearth.webp",
+    "shows": 24,
+    "limit": 3,
+    "card": [
+      "Kagemucha Knight",
+      "Ghostrick Alucard",
+      "Foolish Burial",
+      "Junk Forward",
+      "Danger!? Tsuchinoko?",
+      "Danger!? Jackalope?",
+      "Psychic Tracker",
+      "Psychic Wheeleder",
+      "Alich, Malebranche of the Burning Abyss",
+      "Barbar, Malebranche of the Burning Abyss",
+      "Calcab, Malebranche of the Burning Abyss",
+      "Cir, Malebranche of the Burning Abyss",
+      "Defrag Dragon",
+      "Farfa, Malebranche of the Burning Abyss",
+      "Fiendish Rhino Warrior",
+      "Graff, Malebranche of the Burning Abyss",
+      "Libic, Malebranche of the Burning Abyss",
+      "Scarm, Malebranche of the Burning Abyss",
+      "Tour Guide From the Underworld",
+      "Block Dragon",
+      "Edge Imp Sabres",
+      "Gallis the Star Beast",
+      "Gigantes",
+      "Giant Rex",
+      "Glow-Up Bulb",
+      "Mathematician",
+      "Mecha Phantom Beast O-Lion",
+      "Orbital Hydralander",
+      "Performage Hat Tricker",
+      "Sea Archiver",
+      "Speedroid Taketomborg",
+      "Speedroid Terrortop",
+      "The Rock Spirit",
+      "Sekka's Light",
+      "Beatrice, Lady of the Eternal",
+      "Cherubini, Ebon Angel of the Burning Abyss",
+      "Curious, the Lightsworn Dominion",
+      "Dante, Traveler of the Burning Abyss",
+      "Leviair the Sea Dragon",
+      "Naturia Beast",
+      "Emergency Teleport",
+      "Fiend Griefing",
+      "Paleozoic Dinomischus",
+      "Phoenix Wing Wind Blast"
     ]
   },
   "nekroz": {
@@ -496,8 +553,6 @@
       "True Draco Heritage",
       "Crackdown",
       "Fiendish Chain",
-      "Gozen Match",
-      "Imperial Order",
       "Macro Cosmos",
       "Rivalry of Warlords",
       "Solemn Judgment",
@@ -509,7 +564,11 @@
       "True King's Return",
       "Anti-Spell Fragrance",
       "Dreiath III, the True Dracocavalry General",
-      "Pot of Duality"
+      "Pot of Duality",
+      "Phantom Knights' Fog Blade",
+      "Set Rotation",
+      "Planet Pathfinder",
+      "Metaverse"
     ]
   },
   "altergeist": {
@@ -682,7 +741,8 @@
       "Instant Fusion",
       "Heavy Storm Duster",
       "Unending Nightmare",
-      "Typhoon"
+      "Typhoon",
+      "Set Rotation"
     ]
   },
   "goingsecond": {
@@ -1170,7 +1230,41 @@
       "Lunalight Cat Dancer",
       "Trickstar Lycoris",
       "Trickstar Lilybell",
-      "The Beginning of the End"
+      "The Beginning of the End",
+      "Alich, Malebranche of the Burning Abyss",
+      "Barbar, Malebranche of the Burning Abyss",
+      "Calcab, Malebranche of the Burning Abyss",
+      "Cir, Malebranche of the Burning Abyss",
+      "Defrag Dragon",
+      "Farfa, Malebranche of the Burning Abyss",
+      "Fiendish Rhino Warrior",
+      "Graff, Malebranche of the Burning Abyss",
+      "Libic, Malebranche of the Burning Abyss",
+      "Scarm, Malebranche of the Burning Abyss",
+      "Tour Guide From the Underworld",
+      "Block Dragon",
+      "Edge Imp Sabres",
+      "Gallis the Star Beast",
+      "Gigantes",
+      "Giant Rex",
+      "Glow-Up Bulb",
+      "Mecha Phantom Beast O-Lion",
+      "Orbital Hydralander",
+      "Performage Hat Tricker",
+      "Speedroid Taketomborg",
+      "Speedroid Terrortop",
+      "The Rock Spirit",
+      "Sekka's Light",
+      "Beatrice, Lady of the Eternal",
+      "Cherubini, Ebon Angel of the Burning Abyss",
+      "Curious, the Lightsworn Dominion",
+      "Dante, Traveler of the Burning Abyss",
+      "Leviair the Sea Dragon",
+      "Naturia Beast",
+      "Emergency Teleport",
+      "Fiend Griefing",
+      "Phoenix Wing Wind Blast",
+      "Set Rotation"
     ]
   }
 }
